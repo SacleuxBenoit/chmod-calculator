@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span class="owner">
+            <h1>Owner</h1>
+            <label for="read">Read</label>
+            <input type="checkbox" name="o_R" id="o_R" value="o_R" onclick="refresh()">
+
+            <label for="Write">Write</label>
+            <input type="checkbox" name="o_W" id="o_W" value="o_W" onclick="refresh()">
+
+            <label for="execute">Execute</label>
+            <input type="checkbox" name="o_X" name="o_X" id="o_X" onclick="refresh()">
+        </span>
+
+        <span class="group">
+            <h1>Group</h1>
+            <label for="read">Group</label>
+            <input type="checkbox" name="g_R" id="g_R" value="g_R" onclick="refresh()">
+
+            <label for="Write">Write</label>
+            <input type="checkbox" name="g_W" id="g_W" value="g_W" onclick="refresh()">
+
+            <label for="execute">Execute</label>
+            <input type="checkbox" name="g_X" id="g_X" value="g_X" onclick="refresh()">
+        </span>
+
+        <span class="public">
+            <h1>Public</h1>
+            <label for="read">Read</label>
+            <input type="checkbox" name="p_R" id="p_R" value="p_R" onclick="refresh()">
+
+            <label for="Write">Write</label>
+            <input type="checkbox" name="p_W" id="p_W" value="p_W" onclick="refresh()">
+
+            <label for="execute">Execute</label>
+            <input type="checkbox" name="p_X" name="p_X" id="p_X" onclick="refresh()">
+        </span>
+    </div>
+
+    <div class="result">
+        <p id="result"></p>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
