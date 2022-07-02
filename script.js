@@ -1,24 +1,24 @@
 function refresh(){
     // Owner
-    let o_R = document.getElementById('o_R');
-    let o_W = document.getElementById('o_W');
-    let o_X = document.getElementById('o_X');
+    const o_R = document.getElementById('o_R');
+    const o_W = document.getElementById('o_W');
+    const o_X = document.getElementById('o_X');
 
     // Group
-    let g_R = document.getElementById('g_R');
-    let g_W = document.getElementById('g_W');
-    let g_X = document.getElementById('g_X');
+    const g_R = document.getElementById('g_R');
+    const g_W = document.getElementById('g_W');
+    const g_X = document.getElementById('g_X');
 
     // Public
-    let p_R = document.getElementById('p_R');
-    let p_W = document.getElementById('p_W');
-    let p_X = document.getElementById('p_X');
+    const p_R = document.getElementById('p_R');
+    const p_W = document.getElementById('p_W');
+    const p_X = document.getElementById('p_X');
 
     // Result
-    let result = document.getElementById('result')
-    let o_result = 0;
-    let g_result = 0;
-    let p_result = 0;
+    const result = document.getElementById('result')
+    const o_result = 0;
+    const g_result = 0;
+    const p_result = 0;
 
     // Owner
     if(o_R.checked){
